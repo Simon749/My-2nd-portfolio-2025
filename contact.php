@@ -29,7 +29,7 @@ if (isset($_POST['form_submit'])) {
         $mail->Port       = 587;
 
         // Sender & Recipient
-        $mail->setFrom('simonmwangi749@gmail.com', 'mwangisimon.co.ke');
+        $mail->setFrom('simonmwangi749@gmail.com', 'my-2nd-portfolio-2025.vercel.app');
         $mail->addAddress('simonmwangi749@gmail.com', 'Simon Mwangi');
 
         // Email Content
